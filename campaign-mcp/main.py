@@ -28,11 +28,11 @@ from mcp.server.fastmcp import FastMCP
 CAMPAIGN_DIR = Path(__file__).parent.parent
 load_dotenv(CAMPAIGN_DIR / ".env")
 
-SMTP_HOST    = os.getenv("SMTP_HOST", "allennetic.com")
+SMTP_HOST    = os.getenv("SMTP_HOST")
 SMTP_PORT    = int(os.getenv("SMTP_PORT", "465"))
-SMTP_USER    = os.getenv("SMTP_USER", "info@allennetic.com")
+SMTP_USER    = os.getenv("SMTP_USER")
 SMTP_PASS    = os.getenv("SMTP_PASS", "")
-SENDER_NAME  = "Allennetic"
+SENDER_NAME  = os.getenv("SENDER_NAME", "Campaign")
 
 SENT_LOG     = CAMPAIGN_DIR / "emails" / "sent_log.csv"
 LEADS_DB     = CAMPAIGN_DIR / "leads_database.csv"

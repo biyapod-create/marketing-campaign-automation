@@ -35,6 +35,13 @@ wc_customers_chunk1.csv
 emails/sent_log.csv
 responses/response_tracking.csv
 
+# Campaign config (contains real business contact info & local paths)
+campaign_database.json
+
+# Business documents
+*.pdf
+Allennetic_Campaign_Summary.pdf
+
 # Generated campaign output (contains personalized emails)
 generated_campaigns/
 
@@ -50,6 +57,9 @@ Thumbs.db
 
 # WhatsApp session data
 whatsapp-mcp/whatsapp-bridge/store/
+
+# WhatsApp lead data (real phone numbers / contact info)
+whatsapp-mcp/leads.json
 
 # Performance database
 intelligence/performance.db

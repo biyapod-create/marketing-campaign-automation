@@ -11,9 +11,16 @@ Rules:
 - No hype, no emojis, no buzzwords
 """
 
+import os
 from typing import Dict, List
 from dataclasses import dataclass
+from dotenv import load_dotenv
 from .decision_router import MessageDecision, ICPCluster
+
+load_dotenv()
+SENDER_NAME = os.getenv("SENDER_NAME", "Your Company")
+SENDER_PHONE = os.getenv("SENDER_PHONE", "")
+SENDER_EMAIL = os.getenv("SMTP_USER", "")
 
 
 @dataclass
@@ -169,9 +176,9 @@ class MessageGenerator:
 
 {cta}
 
-Allennetic
-+234 808 937 0300
-info@allennetic.com"""
+{SENDER_NAME}
+{SENDER_PHONE}
+{SENDER_EMAIL}"""
         
         return body.strip()
     

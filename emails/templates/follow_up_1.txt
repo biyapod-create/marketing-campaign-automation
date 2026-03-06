@@ -11,6 +11,6 @@ Would you have 15 minutes this week or next for a quick call to explore if this 
 If now isn't the right time, no worries at all - just let me know.
 
 Best,
-Allennetic Ltd
-info@allennetic.com
-+234 808 937 0300
+{{sender_name}}
+{{sender_email}}
+{{sender_phone}}

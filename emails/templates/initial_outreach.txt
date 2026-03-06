@@ -11,8 +11,7 @@ Would you be open to a brief 15-minute call next week to discuss how we might he
 Let me know what works for you.
 
 Best regards,
-Allennetic Ltd
-Digital Solutions Team
-+234 808 937 0300
-info@allennetic.com
-www.allennetic.com
+{{sender_name}}
+{{sender_phone}}
+{{sender_email}}
+{{sender_website}}

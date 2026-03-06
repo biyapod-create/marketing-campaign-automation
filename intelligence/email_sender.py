@@ -20,11 +20,11 @@ from dotenv import load_dotenv
 _campaign_dir = Path(__file__).parent.parent
 load_dotenv(_campaign_dir / ".env")
 
-SMTP_HOST = os.getenv("SMTP_HOST", "allennetic.com")
+SMTP_HOST = os.getenv("SMTP_HOST")
 SMTP_PORT = int(os.getenv("SMTP_PORT", "465"))
-SMTP_USER = os.getenv("SMTP_USER", "info@allennetic.com")
+SMTP_USER = os.getenv("SMTP_USER")
 SMTP_PASS = os.getenv("SMTP_PASS")
-SENDER_NAME = "Allennetic"
+SENDER_NAME = os.getenv("SENDER_NAME", "Campaign")
 SENT_LOG_PATH = _campaign_dir / "emails" / "sent_log.csv"
 
 

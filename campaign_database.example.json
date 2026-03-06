@@ -1,0 +1,67 @@
+{
+  "campaign_info": {
+    "name": "Your Company Marketing Campaign",
+    "status": "active",
+    "created_date": "YYYY-MM-DD",
+    "version": "1.0"
+  },
+
+  "email_config": {
+    "account_name": "your_account_name",
+    "from_name": "Your Company Name",
+    "email_address": "info@yourdomain.com",
+    "daily_send_limit": 50,
+    "enabled": true,
+    "template_sequence": ["initial_outreach", "follow_up_1", "follow_up_2"],
+    "follow_up_delays_days": [3, 7]
+  },
+
+  "target_audience": {
+    "ideal_customers": [
+      "Early-stage startups",
+      "Small businesses going digital",
+      "Solopreneurs & freelancers",
+      "E-commerce startups",
+      "Service businesses",
+      "NGOs"
+    ],
+    "job_titles": ["CEO", "Founder", "Co-Founder", "Managing Director", "Owner"],
+    "seniorities": ["founder", "c_suite", "owner"],
+    "locations": ["Your City, Your Country"]
+  },
+
+  "value_proposition": {
+    "tagline": "Your tagline here",
+    "services": [
+      "Service 1",
+      "Service 2",
+      "Service 3"
+    ],
+    "timeline": "7-14 days delivery",
+    "starting_price": "Your price here",
+    "usp": "Your unique selling proposition"
+  },
+
+  "contact_info": {
+    "phone": "+1 (555) 000-0000",
+    "email": "info@yourdomain.com",
+    "website": "www.yourdomain.com"
+  },
+
+  "progress": {
+    "leads_collected": 0,
+    "leads_enriched": 0,
+    "emails_sent": 0,
+    "emails_opened": 0,
+    "responses_received": 0,
+    "meetings_booked": 0,
+    "unsubscribes": 0
+  },
+
+  "files": {
+    "leads_database": "leads/leads_database.csv",
+    "sent_log": "emails/sent_log.csv",
+    "response_tracking": "responses/response_tracking.csv",
+    "templates_dir": "emails/templates/"
+  }
+}

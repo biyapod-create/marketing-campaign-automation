@@ -11,7 +11,6 @@ If this resonates with what {{company}} needs and you'd like to explore further,
 Either way, wishing you and {{company}} all the best.
 
 Cheers,
-Allennetic Ltd
-Digital Solutions Team
-info@allennetic.com
-www.allennetic.com
+{{sender_name}}
+{{sender_email}}
+{{sender_website}}
