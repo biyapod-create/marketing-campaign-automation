@@ -1,0 +1,10 @@
+﻿[project]
+name = "campaign-mcp"
+version = "0.1.0"
+description = "Allennetic Campaign MCP Server"
+requires-python = ">=3.10"
+dependencies = [
+    "mcp[cli]>=1.0.0",
+    "python-dotenv>=1.0.0",
+    "dnspython>=2.4.0",
+]

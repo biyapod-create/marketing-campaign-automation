@@ -1,0 +1,149 @@
+{
+  "campaign_info": {
+    "name": "Allennetic Ltd Marketing Campaign",
+    "status": "active",
+    "created_date": "2025-02-01",
+    "last_updated": "2026-02-02",
+    "version": "2.0_cleaned"
+  },
+  
+  "email_config": {
+    "account_name": "info_allennetic",
+    "from_name": "Allennetic Ltd",
+    "email_address": "info@allennetic.com",
+    "daily_send_limit": 50,
+    "enabled": true,
+    "template_sequence": ["initial_outreach", "follow_up_1", "follow_up_2"],
+    "follow_up_delays_days": [3, 7]
+  },
+  
+  "target_audience": {
+    "ideal_customers": [
+      "Early-stage startups (just incorporated, need everything)",
+      "Small businesses going digital (no website, using Gmail)",
+      "Solopreneurs & freelancers (consultants, coaches, photographers)",
+      "E-commerce startups (selling on Instagram/WhatsApp only)",
+      "Service businesses (salons, clinics, restaurants)",
+      "NGOs (need professional sites, donation systems)"
+    ],
+    "job_titles": ["CEO", "Founder", "Co-Founder", "Managing Director", "Owner"],
+    "seniorities": ["founder", "c_suite", "owner"],
+    "locations": ["Abuja, Nigeria", "Lagos, Nigeria", "Port Harcourt, Nigeria"]
+  },
+  
+  "value_proposition": {
+    "tagline": "Turn ideas into fully functional, ready-to-launch setups",
+    "services": [
+      "Business-ready websites (custom-built, no templates)",
+      "Clean brand identity",
+      "Professional business email setup",
+      "Payment and contact channel configuration"
+    ],
+    "timeline": "7-14 days delivery",
+    "starting_price": "₦250,000",
+    "usp": "Complete digital foundation in one process - no templates, no multi-vendor complexity"
+  },
+  
+  "contact_info": {
+    "phone": "+234 808 937 0300",
+    "email": "info@allennetic.com",
+    "website": "www.allennetic.com"
+  },
+  
+  "progress": {
+    "leads_collected": 0,
+    "leads_enriched": 0,
+    "emails_sent": 0,
+    "emails_opened": 0,
+    "responses_received": 0,
+    "meetings_booked": 0,
+    "unsubscribes": 0
+  },
+  
+  "lead_sources": {
+    "tier_1_priority": [
+      {
+        "name": "LinkedIn Sales Navigator",
+        "cost": "$99/mo",
+        "quality": "Very High",
+        "volume": "High",
+        "best_for": "B2B outreach, decision-makers"
+      },
+      {
+        "name": "Vconnect.com / InfoGuideNigeria.com",
+        "cost": "Free",
+        "quality": "Medium",
+        "volume": "High",
+        "best_for": "Local Nigerian businesses"
+      },
+      {
+        "name": "CAC Recent Registrations",
+        "cost": "Varies",
+        "quality": "Very High",
+        "volume": "Medium",
+        "best_for": "Newly incorporated companies (perfect timing)"
+      },
+      {
+        "name": "Founder Institute Alumni",
+        "cost": "Free/Network",
+        "quality": "High",
+        "volume": "Medium",
+        "best_for": "Pre-qualified startups"
+      },
+      {
+        "name": "Google Maps + Manual Research",
+        "cost": "Time only",
+        "quality": "Very High",
+        "volume": "Low",
+        "best_for": "Local service businesses"
+      }
+    ],
+    "tier_2_scale": [
+      "Hunter.io ($49/mo) - Email verification",
+      "Facebook/WhatsApp business groups - Community engagement",
+      "Chamber of Commerce directories - Established businesses",
+      "Instagram/Social mining - Visual businesses"
+    ],
+    "tier_3_longterm": [
+      "Partnerships (accountants, co-working spaces)",
+      "Lead magnets on website",
+      "Webinars and events"
+    ]
+  },
+  
+  "files": {
+    "leads_database": "leads/leads_database.csv",
+    "sent_log": "emails/sent_log.csv",
+    "response_tracking": "responses/response_tracking.csv",
+    "templates_dir": "emails/templates/"
+  },
+  
+  "next_actions": [
+    "Find 20-50 qualified leads using LinkedIn Sales Navigator or Vconnect",
+    "Enrich leads with verified email addresses",
+    "Send personalized outreach emails",
+    "Track responses and book meetings"
+  ],
+  
+  "how_to_continue": {
+    "new_session_commands": [
+      "Continue my Allennetic marketing campaign",
+      "What's the status of my marketing campaign?",
+      "Find leads in [location]",
+      "Send emails to new leads",
+      "Check for email responses"
+    ],
+    "key_file": "C:\\Users\\Allen\\Desktop\\Marketing Campaign\\campaign_database.json"
+  },
+  
+  "documentation": {
+    "essential_files": [
+      "README.md - System overview and usage",
+      "QUICK_START.md - Quick start guide",
+      "CONFIGURATION_COMPLETE.md - Setup confirmation",
+      "HOW_TO_CONTINUE_NEW_SESSION.md - Cross-session continuity",
+      "QUESTIONS_ANSWERED.md - FAQ reference",
+      "LEAD_SOURCES_GUIDE.md - 30+ lead sources"
+    ]
+  }
+}

@@ -1,0 +1,17 @@
+Hi {{name}},
+
+Last follow-up from me - I don't want to be a pest!
+
+I wanted to share a quick insight: Many businesses lose momentum because they're piecing together their digital presence from multiple vendors—web designer here, email setup there, payment gateway somewhere else. By the time everything's connected, months have passed.
+
+At Allennetic, we deliver the complete setup in one process: custom website, brand identity, business email, and payment/contact systems—all ready to launch in 7–14 days.
+
+If this resonates with what {{company}} needs and you'd like to explore further, I'd love to connect. If not, I completely understand and won't reach out again.
+
+Either way, wishing you and {{company}} all the best.
+
+Cheers,
+Allennetic Ltd
+Digital Solutions Team
+info@allennetic.com
+www.allennetic.com

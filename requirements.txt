@@ -1,0 +1,16 @@
+# Core dependencies
+dnspython>=2.4.0
+python-dotenv>=1.0.0
+
+# Email validation
+# (dnspython handles MX record lookups)
+
+# Campaign MCP server
+mcp[cli]>=1.0.0
+
+# Pipeline dashboard
+flask>=3.0.0
+requests>=2.31.0
+
+# Data processing (used in pipeline scripts)
+# No heavy data science libs needed — stdlib csv/json used throughout

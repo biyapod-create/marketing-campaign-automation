@@ -1,0 +1,16 @@
+Hi {{name}},
+
+Just following up on my email from a few days ago about helping {{company}} establish a professional digital foundation.
+
+I understand you're probably busy, but I wanted to reach out one more time because many founders and businesses delay launching due to the execution gap—no clear brand, website, business email, or payment setup.
+
+At Allennetic, we handle all of this in one streamlined process (7–14 days), so you can focus on running your business instead of piecing together solutions.
+
+Would you have 15 minutes this week or next for a quick call to explore if this makes sense for {{company}}?
+
+If now isn't the right time, no worries at all - just let me know.
+
+Best,
+Allennetic Ltd
+info@allennetic.com
++234 808 937 0300

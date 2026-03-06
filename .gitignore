@@ -1,0 +1,55 @@
+# Allennetic Marketing Campaign — Root .gitignore
+# =====================================================
+# SECURITY: Never commit credentials or sensitive data
+
+# Environment variables (contain SMTP passwords, API keys)
+.env
+.env.local
+.env.production
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+.venv/
+venv/
+*.egg-info/
+dist/
+build/
+.pytest_cache/
+
+# Node
+node_modules/
+dist/
+build/
+*.log
+
+# Databases (may contain real lead data)
+*.db
+*.sqlite3
+
+# Campaign data files (may contain personal data)
+leads_database.csv
+wc_customers_chunk1.csv
+emails/sent_log.csv
+responses/response_tracking.csv
+
+# Generated campaign output (contains personalized emails)
+generated_campaigns/
+
+# IDE
+.vscode/
+.idea/
+*.suo
+*.sw?
+
+# OS
+.DS_Store
+Thumbs.db
+
+# WhatsApp session data
+whatsapp-mcp/whatsapp-bridge/store/
+
+# Performance database
+intelligence/performance.db

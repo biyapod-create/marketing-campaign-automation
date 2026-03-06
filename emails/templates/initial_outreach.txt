@@ -1,0 +1,18 @@
+Hi {{name}},
+
+I came across {{company}} and was impressed by {{specific_detail}}.
+
+I'm reaching out because we help founders and businesses like yours turn ideas into fully functional, ready-to-launch setups—without templates or guesswork.
+
+At Allennetic Digital Solutions, we handle the full setup: business-ready websites, clean brand identity, professional business email, and payment/contact channels. Most projects are delivered within 7–14 days, with custom-built solutions (no templates).
+
+Would you be open to a brief 15-minute call next week to discuss how we might help {{company}} launch faster with a professional digital foundation?
+
+Let me know what works for you.
+
+Best regards,
+Allennetic Ltd
+Digital Solutions Team
++234 808 937 0300
+info@allennetic.com
+www.allennetic.com
